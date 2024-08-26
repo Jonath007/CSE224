@@ -93,3 +93,50 @@ fun main(args: Array<String>) {
 	val y:Long = x.toLong()
     println(y)
 }
+
+//Operators
+fun main(args: Array<String>) {
+	
+    var a = 10
+    var b = 20
+    
+    //Arithmetic operators
+    println("Addition of $a and $b: ${a+b}")
+    println("Subtraction of $b and $a: ${b-a}")
+    println("Multiplication of $a and $b: ${a*b}")
+    println("Division of $b and $a: ${b/a}")
+
+    
+    //Relational operators
+    println("is $a > $b: ${a>b}")
+    println("is $a < $b: ${a<b}")
+    println("is $a >= $b: ${a>=b}")
+    println("is $a <= $b: ${a<=b}")
+    println("is $a == $b: ${a==b}")
+    println("is $a != $b: ${a!=b}")
+    
+    
+    //Assignment operators
+    println("$a += $b : $a = $a + $b : ${a+b}")
+    println("$a -= $b : $a = $a - $b : ${a-b}")
+    println("$a *= $b : $a = $a * $b : ${a*b}")
+    println("$a /= $b : $a = $a / $b : ${a/b}")
+    
+    
+    //Unary operators
+    val unaryPlus = +a
+    println("Unary Plus: $unaryPlus") 
+    
+    val unaryMinus = -a
+    println("Unary Minus: $unaryMinus") 
+    
+    a++
+    println("Increment: $a") 
+    
+    b--
+    println("Decrement: $b") 
+    
+    
+    //Logical operators
+}
+
