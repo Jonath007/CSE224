@@ -1,0 +1,10 @@
+class student{
+    fun result(){
+        print("pending")
+    }
+}
+
+fun main() {
+	var s1 = student()
+    s1.result()
+}
