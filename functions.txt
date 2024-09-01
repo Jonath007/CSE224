@@ -1,0 +1,35 @@
+//functions
+fun sum(a:Int,b:Int){  //creating function
+    val c = a + b
+    println(c)
+}
+fun main() {
+    sum(30,50)    //calling function
+   
+}
+
+fun main(args: Array<String>){
+    val a = 10
+    val b = 20
+    val result = sum(a, b)
+    println(result)
+}
+
+fun sum(a:Int, b:Int):Int{
+    val x = a + b
+    return x
+}
+
+
+// create a function to convert temperature from celcius to fahrenheit
+
+fun main(args: Array<String>){
+    val temp = 10
+    val result = calsius2fehrenhiet(temp)
+    println(result)
+}
+
+fun calsius2fehrenhiet(temp:Int):Double{
+   	val f = (1.8 * temp) + 32
+    return f    
+}
